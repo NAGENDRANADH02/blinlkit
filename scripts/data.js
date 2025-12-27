@@ -419,10 +419,10 @@ let veg_data = () => {
       {
         cat: "soft",
         image:
-          "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=250,h=250/app/images/products/sliding_image/314a.jpg",
-        name: "Thums up",
-        wt: "750 ml",
-        price: "38",
+          "./images/dairy.png",
+        name: "Dairy milk",
+        wt: "100g",
+        price: "10",
       },
       {
         cat: "soft",
