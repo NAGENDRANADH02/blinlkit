@@ -9,64 +9,64 @@
    
 }
 #inside_address{
-    height:721px;
-    width: 658px;
-    padding: 42px 50.4px 0px 50.4px;
+    height:515px;
+    width: 470px;
+    padding: 30px 36px 0px 36px;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 50px;
     background-color:white;
-    border-radius: 7px;
+    border-radius: 5px;
 }
 #address_title{
-    height:28px;
-    line-height: 28px;
-    font-size: 25.2px;
-    margin: 0px 0px 11.2px 0px;
+    height:20px;
+    line-height: 20px;
+    font-size: 18px;
+    margin: 0px 0px 8px 0px;
 }
 h2,h4{
     text-align: center;
     line-height: 0;
 }
 #area{
-height:42px;
-width:630px
+height:30px;
+width:450px
 }
 #title{
-    height: 58.8px;
-    width:127.4px
+    height: 42px;
+    width:91px
 }
 #First_last{
-    height: 53.2px;
-    width: 497.0px;
+    height: 38px;
+    width: 355px;
 }
 
 #flat_no{
-    width:630px;
-    height:53.2px;
-    margin:5.6px 0px 0px 0px;
-    /* padding:16.8px 14px 16.8px 14px */
+    width:450px;
+    height:38px;
+    margin:4px 0px 0px 0px;
+    /* padding:12px 10px 12px 10px */
 }
 #street_no{
-    width:630px;
-    height:53.2px;
-    margin:5.6px 0px 0px 0px;
-    /* padding:16.8px 14px 16.8px 14px */
+    width:450px;
+    height:38px;
+    margin:4px 0px 0px 0px;
+    /* padding:12px 10px 12px 10px */
 }
 #continue_btn,#cancel_btn{
-    width:168px;
-    height: 53.2px;
-    margin-top: 21px;
+    width:120px;
+    height: 38px;
+    margin-top: 15px;
 }
 #home_office_other{
-    width:630px;
-    height:53.2px;
-    margin-top: 35px;
+    width:450px;
+    height:38px;
+    margin-top: 25px;
 }
 #street,#flat,#name{
-    margin-top: 28px;
+    margin-top: 20px;
 }
 #continue_cancel{
-    width:392px;
+    width:280px;
     display: flex;
     justify-content: space-around;
 }
@@ -79,3 +79,5 @@ width:630px
     background-color: #F9F9F9;
     color:#666666
 }
+
+
