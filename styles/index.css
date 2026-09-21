@@ -4,7 +4,7 @@
 } */
 .container {
   max-width: 100%;
-  padding: 0 16px;
+  padding: 0 22.4px;
   margin: auto;
   box-sizing: border-box;
 }
@@ -16,40 +16,40 @@ a {
 #mainNav {
   position: fixed;
   width: 100%;
-  height: 64px;
+  height: 89.6px;
   background-color: #ffe141; /*#f5d000*/
   display: flex;
   font-family: Okra, Helvetica;
-  font-size: 14px;
+  font-size: 19.6px;
   font-weight: 500;
   justify-content: space-around;
 
   /* top: 0;
   right: 0; */
   z-index: 34;
-  margin-top: -13px;
+  margin-top: -18.2px;
 }
 #logo {
   margin-top: auto;
   margin-bottom: auto;
-  height: 37px;
-  width: 92px;
-  padding: 0 28px 0 28px;
+  height: 51.8px;
+  width: 128.8px;
+  padding: 0 39.2px 0 39.2px;
 }
 #logo > img {
-  height: 37px;
-  width: 92px;
+  height: 51.8px;
+  width: 128.8px;
 }
 #location {
-  width: 340px;
+  width: 476.0px;
   display: flex;
-  gap: 15px;
+  gap: 21px;
   box-sizing: border-box;
 }
 #location > img {
   margin-top: 4%;
-  height: 32px;
-  width: 32px;
+  height: 44.8px;
+  width: 44.8px;
 }
 #locName {
   margin-top: 4%;
@@ -63,23 +63,23 @@ a {
 #searchbox {
   margin-top: auto;
   margin-bottom: auto;
-  height: 42px;
-  width: 670px;
+  height: 58.8px;
+  width: 938.0px;
   display: flex;
   border: 1px solid #d8d8d8;
-  border-radius: 8px;
+  border-radius: 11.2px;
 }
 #searchbox > input {
   height: 100%;
   width: 100%;
   border: 0;
-  border-radius: 0 8px 8px 0;
+  border-radius: 0 11.2px 11.2px 0;
 }
 #searchbox > button {
-  height: 44px;
-  width: 50px;
+  height: 61.6px;
+  width: 70px;
   border: 0;
-  border-radius: 8px 0 0 8px;
+  border-radius: 11.2px 0 0 11.2px;
 }
 #cat1 {
   margin-top: auto;
@@ -92,14 +92,14 @@ a {
 #cat3 {
   position: relative;
   display: none;
-  top: 23px;
+  top: 32.2px;
 }
 #mycart {
   margin-top: auto;
   margin-bottom: auto;
-  height: 40px;
-  width: 92px;
-  border-radius: 25px;
+  height: 56px;
+  width: 128.8px;
+  border-radius: 35px;
   text-align: center;
   background-color: #459220;
   display: flex;
@@ -111,36 +111,36 @@ a {
   transform: scale(0.8);
 }
 #sugBox {
-  width: 670px;
-  height: 330px;
+  width: 938.0px;
+  height: 462.0px;
 
-  margin-top: 60px;
+  margin-top: 84px;
   margin-left: 37%;
   display: none;
   box-sizing: border-box;
-  padding: 0 10px 10px 10px;
+  padding: 0 14px 14px 14px;
   background-color: whitesmoke;
-  border-radius: 10px;
+  border-radius: 14px;
   position: fixed;
 }
 #sugBox > div {
-  height: 50px;
+  height: 70px;
   width: 97%;
-  margin-top: 10px;
+  margin-top: 14px;
   align-items: center;
   display: flex;
   justify-content: space-between;
   outline: 1px solid gray;
-  padding-right: 10px;
-  padding-left: 10px;
-  border-radius: 10px;
+  padding-right: 14px;
+  padding-left: 14px;
+  border-radius: 14px;
 }
 #sugBox > div > img {
-  width: 50px;
-  height: 40px;
+  width: 70px;
+  height: 56px;
 }
 #sideCart {
-  height: 704px;
+  height: 985.6px;
   /* float: right; */
   z-index: 1;
 
@@ -149,14 +149,14 @@ a {
   position: fixed;
   right: 0px;
   overflow: scroll;
-  /* padding-top: 100px; */
-  top: 50px;
+  /* padding-top: 140px; */
+  top: 70px;
   /* ===== */
-  width: 350px;
+  width: 490.0px;
   background-color: white;
   display: none;
 
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 7px 21px;
 }
 #openClose {
   display: flex;
@@ -164,13 +164,13 @@ a {
   justify-content: space-between;
   background-color: white;
   box-sizing: border-box;
-  padding: 5px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 7px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 7px 21px;
 }
 #closeCart {
-  width: 28px;
-  height: 28px;
-  font-size: 25px;
+  width: 39.2px;
+  height: 39.2px;
+  font-size: 35px;
   text-align: center;
   background: none;
   border: none;
@@ -178,23 +178,23 @@ a {
 #cartEmptyImg {
   display: none;
   width: 100%;
-  height: 280px;
-  margin-top: 10px;
+  height: 392px;
+  margin-top: 14px;
   text-align: center;
   background-color: white;
 }
 #cartEmptyImg > img {
-  width: 144px;
-  height: 144px;
+  width: 201.6px;
+  height: 201.6px;
 }
 #cartEmptyImg > button {
-  height: 32px;
-  width: 174px;
+  height: 44.8px;
+  width: 243.6px;
   border: 1px solid #000000;
-  padding: 8px 8px 8px 8px;
+  padding: 11.2px 11.2px 11.2px 11.2px;
   background-color: #0c831f;
   cursor: pointer;
-  border-radius: 7px;
+  border-radius: 9.8px;
   color: white;
   box-sizing: border-box;
 }
@@ -202,13 +202,13 @@ a {
   display: none;
   position: absolute;
   width: 100%;
-  height: 150px;
+  height: 210px;
 
-  top: 90px;
-  padding: 8px;
+  top: 126.0px;
+  padding: 11.2px;
 }
 #subcart > img {
-  height: 80px;
+  height: 112px;
   width: 95%;
 }
 #subcart > h2,
@@ -217,13 +217,13 @@ a {
   padding: 0;
 }
 #subcart > p {
-  margin-bottom: 15px;
+  margin-bottom: 21px;
 }
 #zz {
   position: absolute;
 
-  top: 260px;
-  height: 360px;
+  top: 364px;
+  height: 504.0px;
   width: 100%;
   overflow: scroll;
 }
@@ -235,64 +235,64 @@ a {
 }
 #bill {
   position: absolute;
-  top: 620px;
+  top: 868px;
   width: 100%;
 
-  padding: 10px;
+  padding: 14px;
 }
 #bill > h2 {
   margin: 0;
 }
 #bill > button {
   width: 90%;
-  height: 30px;
+  height: 42px;
   border: none;
   background: #0c831f;
   color: white;
-  margin-top: -10px;
+  margin-top: -14px;
 }
 #login {
   position: absolute;
   text-align: center;
-  width: 570px;
-  height: 300px;
-  transform: translate(500px, 200px);
+  width: 798px;
+  height: 420px;
+  transform: translate(700px, 280px);
   background-color: whitesmoke;
-  border-radius: 8px;
+  border-radius: 11.2px;
   outline: 1px solid grey;
   display: none;
   cursor: pointer;
 }
 #phoneHead {
-  height: 80px;
+  height: 112px;
   border: 1px solid white;
   background-color: white;
 }
 #dialPad {
   margin: auto;
-  width: 280px;
-  height: 200px;
+  width: 392px;
+  height: 280px;
 }
 #dialPad > button {
   background-color: #0c831f;
   border: none;
-  border-radius: 8px;
+  border-radius: 11.2px;
   color: white;
-  width: 260px;
-  height: 40px;
+  width: 364px;
+  height: 56px;
 }
 #dialPad > input {
-  width: 250px;
-  height: 35px;
+  width: 350px;
+  height: 49px;
 }
 #myDropdown {
   display: none;
   position: absolute;
-  top: 65px;
+  top: 91px;
   left: 80%;
-  width: 244px;
-  height: 300px;
-  padding: 10px;
+  width: 341.6px;
+  height: 420px;
+  padding: 14px;
   outline: 1px dashed gray;
   background-color: lightgray;
 }
@@ -302,63 +302,63 @@ a {
   padding: 0;
 }
 #myDropdown > p {
-  margin-bottom: 15px;
+  margin-bottom: 21px;
 }
 #myDropdown > li {
-  line-height: 30px;
+  line-height: 42px;
   list-style: none;
 }
 #qr {
-  height: 75px;
+  height: 105px;
   background: #f6fbff;
   display: flex;
-  gap: 15px;
-  padding: 10px;
+  gap: 21px;
+  padding: 14px;
 }
 #qr > img {
-  width: 70px;
-  height: 70px;
+  width: 98px;
+  height: 98px;
 }
 
 /* jibin's subwork css for homepage */
 #bankgrid {
   display: grid;
-  grid-template-columns: repeat(8, 160px);
+  grid-template-columns: repeat(8, 224px);
   justify-content: center;
 }
 #bankgrid img {
-  width: 160px;
-  height: 205px;
+  width: 224px;
+  height: 287px;
 }
 
 #removebtn {
-  height: 30px;
-  width: 70px;
-  border-radius: 20px;
+  height: 42px;
+  width: 98px;
+  border-radius: 28px;
   background-color: gold;
   border: none;
-  margin-top: 30px;
-  margin-left: 40px;
+  margin-top: 42px;
+  margin-left: 56px;
   /* align-items: center; */
 }
 #bankCard > div {
   text-align: center;
 }
 #bankCard > div > img {
-  width: 1000px;
-  height: 170px;
+  width: 1400px;
+  height: 238.0px;
 }
 /* Magic Mode Toggle Key */
 #magic-key {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 28px;
+  right: 28px;
   background-color: gold;
   color: black;
-  font-size: 24px;
-  padding: 12px 16px;
+  font-size: 33.6px;
+  padding: 16.8px 22.4px;
   border-radius: 50%;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 21px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   z-index: 10000;
   transform: none !important;   /* Prevent inherited zoom */
@@ -369,7 +369,7 @@ a {
 /* Floating product copy */
 .magic-float {
   position: fixed;
-  width: 100px;
+  width: 140px;
   height: auto;
   transition: transform 4s ease, top 0.1s, left 0.1s;
   z-index: 10000;
@@ -383,19 +383,19 @@ img {
 
  
 .magic-glow {
-  box-shadow: 0 0 30px rgba(255, 255, 0, 0.6);
-  border-radius: 12px;
+  box-shadow: 0 0 42px rgba(255, 255, 0, 0.6);
+  border-radius: 16.8px;
   transform: scale(1.05);
 }
 #magicBtn {
   position: fixed;
-  top: 20px;
-  right: 20px;
-  padding: 10px 16px;
+  top: 28px;
+  right: 28px;
+  padding: 14px 22.4px;
   background-color: #555;
   color: white;
   border: none;
-  border-radius: 6px;
+  border-radius: 8.4px;
   cursor: pointer;
   z-index: 10000;
   transition: background-color 0.3s ease;
@@ -406,4 +406,3 @@ img {
   color: white;
   transform: scale(1.1);
 }
-give
