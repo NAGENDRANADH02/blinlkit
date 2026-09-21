@@ -1,11 +1,11 @@
 #sd-container{
     width: 80%;
-    /* border: 1px solid grey; */
+    /* border: 1.4px solid grey; */
     margin: auto;
     display: flex;
     background-color: white;
-    margin-top: 15px;
-    padding-top: 120px;
+    margin-top: 21px;
+    padding-top: 168px;
 }
 #sd-left{
     width: 20%;
@@ -18,34 +18,34 @@
 #sd-sort{
     display: flex;
     justify-content: space-between;
-    /* border: 1px dashed green; */
+    /* border: 1.4px dashed green; */
 }
 #sd-sort div:nth-child(1){
-    margin-left: 20px;
+    margin-left: 28px;
 }
 #sd-selectDiv{
-    margin-top: 20px;
-    margin-right: 30px;
+    margin-top: 28px;
+    margin-right: 42px;
 }
 #sd-select{
-    height: 30px;
-    width: 200px;
+    height: 42px;
+    width: 280px;
 }
 #sd-showdata {
   display: grid;
-  margin-top: 10px;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); /* Adjusts for screen size */
-  gap: 20px;
-  padding: 10px;
+  margin-top: 14px;
+  grid-template-columns: repeat(auto-fill, minmax(336px, 1fr)); /* Adjusts for screen size */
+  gap: 28px;
+  padding: 14px;
 }
 
 #sd-maindiv {
   text-align: left;
   border: 1px solid #f0f0f0;
-  padding: 90px;
+  padding: 126.0px;
   background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  border-radius: 14px;
+  box-shadow: 0 0 14px rgba(0,0,0,0.05);
   transition: transform 0.2s ease-in-out;
 }
 
@@ -55,9 +55,9 @@
 
 #sd-maindiv img {
   width: 100%;
-  height: 200px;
+  height: 280px;
   object-fit: cover;
-  margin-bottom: 10px;
+  margin-bottom: 14px;
   cursor: pointer;
 }
 #sd-subdiv{
@@ -67,31 +67,31 @@
 #sd-button{
     background-color: #ffe141;
     border: none;
-    width: 100px;
-    height: 35px;
-    border-radius: 40px;
-    margin-top: 8px;
+    width: 140px;
+    height: 49px;
+    border-radius: 56px;
+    margin-top: 11.2px;
 }
 #sd-selected{
     background-color:#f7f7f7 ;
     border-left: 4px solid #0c831f !important;
-    height: 49px;
+    height: 68.6px;
     width: 100%;
 }
 #sd-left div{
    
    border-bottom: 1px solid rgb(207, 205, 205);
-padding-top: 60px;
+padding-top: 84px;
 
 
-  /* border: 1px solid transparent; */
-    height: 49px;
+  /* border: 1.4px solid transparent; */
+    height: 68.6px;
     width: 100%;
 }
 #sd-left div a{
-    /* margin-left: 25px; */
-   padding: 10px;
-   margin-top: 5px;
+    /* margin-left: 35px; */
+   padding: 14px;
+   margin-top: 7px;
 }
 #sd-left div:hover{
     background-color:#f7f7f7 ;
@@ -104,10 +104,10 @@ a{
     display: flex;
     margin: auto;
     justify-content: space-evenly;
-    height: 50px;
+    height: 70px;
    
    
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1.4px 5.6px;
 align-items: center;
 background-color: white;
 }
@@ -117,10 +117,10 @@ background-color: white;
     padding-top: 0px;
 }
 #sd-nav{
-   padding-top: 50px;
+   padding-top: 70px;
     position: fixed; 
     width: 100%;
-    /* top: 60px; */
+    /* top: 84px; */
     
 
 } 
@@ -130,13 +130,13 @@ button{
 
 
 /* ✅ MEDIA QUERIES FOR RESPONSIVENESS */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1075.2px) {
   #sd-showdata {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1433.6px) {
   #sd-showdata {
     grid-template-columns: repeat(4, 1fr);
   }
